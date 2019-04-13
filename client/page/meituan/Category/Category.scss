@@ -1,0 +1,20 @@
+.category {
+  overflow: hidden;
+  .category-item {
+    float: left;
+    width: 25%;
+    padding-top: r(14);
+    font-size: r(13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item-icon {
+    width:r(47);
+  }
+
+  .item-name {
+    margin-top: r(14);
+  }
+}

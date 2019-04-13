@@ -1,0 +1,16 @@
+.list-content {
+	.list-title {
+		text-align: center;
+		font-size: r(16);
+		margin-top: r(14);
+		margin-bottom: r(5);
+	}
+
+	.title-line {
+		display: inline-block;
+		border-bottom: solid r(1) #949494;
+		height: r(1);
+		width: r(30);
+		margin: 0 r(4) r(4) r(4);
+	}
+}
