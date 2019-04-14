@@ -49,6 +49,7 @@ export const getContentList = () => {
 	
 			if (data.code === 0) {
 				dispath(setContentList(data.data.poilist));
+
 			} else {
 				console.log('获取数据失败')
 			}

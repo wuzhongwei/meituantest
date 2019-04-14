@@ -10,7 +10,6 @@ class Category extends Component {
 
 	renderItem(){
 		const {items} = this.props;
-
 		return items.map((item, index) => {
 			return (<div 
 				key={index} 
