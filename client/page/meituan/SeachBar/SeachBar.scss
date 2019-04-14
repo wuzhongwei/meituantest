@@ -1,0 +1,63 @@
+.seachBar {
+  width:100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: r(14);
+  height: r(40);
+
+  .seachBar-l {
+    margin-right: r(20);
+    border-radius: r(13);
+    background-color: rgba(0,0,0,.33);
+    height: r(28);
+    width: r(92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seachBar-icon {
+    display: inline-block;
+    width: r(15);
+    height: r(20);
+    vertical-align: r(8);
+    margin-left: r(8);
+
+  }
+
+  .seachBar-text {
+    display: inline-block;
+    font-size: r(14);
+    color: #fff;
+    vertical-align: r(12);
+    margin-left: r(5);
+  }
+
+  .seachBar-holder {
+    font-size: r(14);
+    color: #a9a9a9;
+    height: 100%;
+    line-height: r(30);
+
+  }
+
+  .area {
+    color: #fff;
+    display: inline-block;
+  }
+
+  .seachBar-r {
+    width: r(170);
+    height: r(30);
+    border-radius: r(20);
+    background-color: #fff;
+    padding-left: r(10);
+  }
+
+  .fangda {
+    margin-right: r(10);
+  }
+
+}

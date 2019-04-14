@@ -1,0 +1,20 @@
+$ratio: 750/640;
+$browser-default-font-size: 14;
+$browser-default-font-size-px: 14px !default;
+$lte7:                  true !default; //是否兼容ie6-7
+
+@function r($px, $isFixed:true) {
+  @if $px != 0 {
+    @return if($isFixed, $px / $ratio + 0.01, $px / $ratio) / $browser-default-font-size * 1rem;
+  } 
+  @else
+  {
+    @return 0;
+  }
+}
+$designWidth : 750; //如设计图是750
+$deviceWidth : 320;//视图的宽度
+@function pxToRem( $px ){
+    @return $px * $deviceWidth / $designWidth / $browser-default-font-size * 1rem;; 
+}
+

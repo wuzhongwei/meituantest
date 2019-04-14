@@ -1,0 +1,63 @@
+.listItem {
+  display: flex;
+  padding: r(15) r(10);
+  &:after {
+    background-color: #e4e4e4;
+  }
+  .item-img {
+    width: r(86);
+    height:r(65);
+    border: 1px solid #e4e4e4;
+  }
+  .item-info-content {
+    flex: 1;
+    margin: 0 0 0 r(7);
+  }
+  .brand {
+    position: absolute;
+    left: r(1);
+    top: r(16);
+    font-size: r(12);
+    padding: r(2);
+    color: #fff;
+    background-color: #ffa627;
+  }
+  .item-title {
+    margin: r(3) 0 0;
+    font-size: r(16);
+    font-weight: 600;
+    color: #333;
+  }
+  .item-desc {
+    margin-top: r(13);
+    font-size: r(12);
+  }
+  .item-score {
+    float: left;
+  }
+  .item-count {
+    float: left;
+    margin-left: r(5);
+  }
+  .item-time {
+    float: right;
+  }
+  .item-distance {
+    float: right;
+  }
+  .item-price {
+    margin-top: r(10);
+    font-size: r(12);
+    height: r(24);
+  }
+  .item-pre-price {
+    float: left;
+  }
+
+  .brand-pin {
+    background-color: #ffa627;
+  }
+  .brand-xin {
+    background-color: #21c56c;
+  }
+}

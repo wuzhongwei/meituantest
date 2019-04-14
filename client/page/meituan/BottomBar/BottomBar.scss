@@ -1,0 +1,29 @@
+
+.bottom-bar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	border-top: r(1) solid #b6b6b6;
+	background-color: rgba(246, 246, 246, .95);
+	
+
+	.btn-item {
+		flex: 1;
+		font-size: r(18);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: #999;
+		padding: r(2) 0;
+	}
+
+	.tab-icon {
+		font-size: r(18);
+	}
+
+	.active {
+		color: red;
+	}
+}
