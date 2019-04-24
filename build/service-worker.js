@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/meituantest/build/precache-manifest.405d64e3bf78f7fff951a6b44400e356.js"
+  "/meituantest/build/precache-manifest.26b5800580f0f2cd573c96e0797c9e63.js"
 );
 
 workbox.clientsClaim();

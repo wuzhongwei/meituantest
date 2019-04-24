@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/meituantest/build/static/css/10.a1bfaf38.chunk.css"
   },
   {
-    "revision": "cb9336011029a8331ff058756e57acdc",
+    "revision": "7eac2f7cb654e872ca2fa163cca97769",
     "url": "/meituantest/build/index.html"
   }
 ];
