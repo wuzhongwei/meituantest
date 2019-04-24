@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "meituantest/build//static/css/7.c1848095.chunk.css"
   },
   {
-    "revision": "2d20d89d6976273c682e",
+    "revision": "bc0c4e785b2ef486c2cb",
     "url": "meituantest/build//static/css/main.dcc7251b.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "meituantest/build//static/js/6.ed065350.chunk.js"
   },
   {
-    "revision": "2d20d89d6976273c682e",
-    "url": "meituantest/build//static/js/main.501a7319.chunk.js"
+    "revision": "bc0c4e785b2ef486c2cb",
+    "url": "meituantest/build//static/js/main.33bbacac.chunk.js"
   },
   {
     "revision": "d571c5ef5868268e2824",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "meituantest/build//static/css/10.2e8aae3b.chunk.css"
   },
   {
-    "revision": "29184b9bfb250996d2efa008504942fc",
+    "revision": "ff2829bfc536151010ed9997d3aa87ac",
     "url": "meituantest/build//index.html"
   }
 ];
