@@ -69,7 +69,7 @@ export const getCategory = () => {
 	return (dispath) => {
 		axios({
 			method: 'get',
-			url: '/api/json/head.json'
+			url: '/meituantest/build/api/json/head.json'
 		}).then(({data}) => {
 	
 			if (data.code === 0) {
@@ -85,7 +85,7 @@ export const getContentList = (page) => {
 	return (dispath) => {
 		axios({
 			method: 'get',
-			url: '/api/json/list.json'
+			url: '/meituantest/build/api/json/list.json'
 		}).then(({data}) => {
 	
 			if (data.code === 0) {
@@ -104,7 +104,7 @@ export const getOrder = (page) => {
 	return (dispath) => {
 		axios({
 			method: 'get',
-			url: '/api/json/orders.json'
+			url: '/meituantest/build/api/json/orders.json'
 		}).then(({data}) => {
 	
 			if (data.code === 0) {
@@ -129,7 +129,7 @@ export const getFilterData= (page) => {
 	return (dispath) => {
 		axios({
 			method: 'get',
-			url: '/api/json/filter.json'
+			url: '/meituantest/build/api/json/filter.json'
 		}).then(({data}) => {
 	
 			if (data.code === 0) {
@@ -153,10 +153,10 @@ export const changeFilter = (item, key) => {
 
 export const getSortContentlist = (obj) => {
 	return (dispath, getState) => {
-		let url = '/api/json/list.json';
+		let url = '/meituantest/build/api/json/list.json';
 
 		if (obj.filterData || getState().aperpolicy.sortContentList.filterData) {
-			url = '/api/json/listparams.json';
+			url = '/meituantest/build/api/json/listparams.json';
 		}
 		axios({
 			method: 'get',
@@ -183,7 +183,7 @@ export const getMenuData = () => {
 
 		axios({
 			method: 'get',
-			url: '/api/json/food.json'
+			url: '/meituantest/build/api/json/food.json'
 		}).then(({data}) => {
 	
 			if (data.code === 0) {
@@ -250,7 +250,7 @@ export const getComment = (obj) => {
 
 		axios({
 			method: 'get',
-			url: '/api/json/comments.json'
+			url: '/meituantest/build/api/json/comments.json'
 		}).then(({data}) => {
 			if (data.code === 0) {
 					dispath({
@@ -269,7 +269,7 @@ export const getRestanurant = (obj) => {
 
 		axios({
 			method: 'get',
-			url: '/api/json/restanurant.json'
+			url: '/meituantest/build/api/json/restanurant.json'
 		}).then(({data}) => {
 			if (data.code === 0) {
 					dispath({
