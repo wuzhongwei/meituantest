@@ -1,0 +1,25 @@
+.navHeader {
+  height: r(64);
+  border-bottom: r(1) solid #b2b2b2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  overflow: hidden;
+  .title {
+    font-size: r(17);
+    color: #2f2f2f;
+    text-align: center;
+    line-height: r(84);
+  }
+
+  .back-icon {
+    width: r(27);
+    height: r(27);
+    position: absolute;
+    top: r(23);
+    left: r(10);
+    
+  }
+}

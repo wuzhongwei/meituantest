@@ -1,0 +1,138 @@
+.shop-bar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+
+	.bottom-content {
+		height: r(56);
+		display: flex;
+		background-color: rgba(51,51,51, .9);
+	}
+	.shop-icon {
+		width: r(55);
+		height: r(55);
+		background-image: url('./img/shop-icon.png');
+		background-size: cover;
+		margin-top: r(-15);
+		margin-left: r(12);
+		position: relative;
+	}
+
+	.price-content {
+		flex: 1;
+		padding-top: r(8);
+		padding-left: r(7);
+	}
+
+	.total-price {
+		font-size: r(20);
+		color: #fff;
+	}
+
+	.other-price {
+		font-size: r(12);
+		color: #999;
+		margin-top: r(2);
+	}
+
+	.dot-num {
+		position: absolute;
+		background-color: #fb4e44;
+		width: r(15);
+		height: r(15);
+		font-size: r(12);
+		color: #fff;
+		border:solid 1px #fff;
+		top: r(2);
+		right: 0;
+		border-radius: 50%;
+		text-align: center;
+		line-height: r(15);
+	}
+	.submit-btn {
+		width: r(110);
+		height: 100%;
+		background-color: #ffd161;
+		color: #333;
+		font-size: r(16);
+		line-height: r(50);
+		text-align: center;
+	}
+	.choose-content {
+		background-color: #fff;
+	}
+	.content-top {
+		height: r(35);
+		background-color: #f4f4f4;
+		font-size: r(11);
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.clear-car {
+		margin-left: r(10);
+		margin-right: r(5);
+		&:before {
+			content: '';
+			width: r(13);
+			height: r(13);
+
+			background-image: url('./img/clear.jpeg');
+			background-size: cover;
+			float: left;	
+			margin: r(-1);
+			margin-right: r(2);
+		}
+	}
+	.choose-item {
+		display: flex;
+		font-size: r(15);
+		color: #2f2f2f;
+		height: r(35);
+		align-items: center;
+		padding: r(10) 0;
+		border-bottom: 1px solid #ddd;
+
+		.price {
+			margin-left: r(5);
+			margin-right: r(25);
+		}
+	}
+	.item-name {
+		flex: 1;
+		padding: 0 0 0 r(10);
+	}
+	.select-content {
+    position: relative;
+		display: flex;
+		margin-right: r(8);
+  }
+
+  .plus {
+    width: r(25);
+    height: r(25);
+    background-size: cover;
+    background-image: url('./img/plus.png');
+    background-repeat: no-repeat;
+  }
+
+  .minus {
+    width: r(25);
+    height: r(25);
+    background-size: cover;
+    background-image: url('./img/minus.png');
+    background-repeat: no-repeat;
+  }
+
+  .count {
+    font-size: r(15);
+    color: #2f2f2f;
+    width: r(20);
+    height: r(25);
+    line-height: r(25);
+    margin: 0 r(2);
+    text-align: center;
+  }
+}

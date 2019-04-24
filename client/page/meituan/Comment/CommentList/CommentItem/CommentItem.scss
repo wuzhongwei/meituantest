@@ -1,0 +1,74 @@
+.comment-item {
+	display: flex;
+	padding: r(15) r(15) r(12);
+	border-bottom: 1px solid #f0f0f0;
+	position:relative;
+	.comment-time {
+		position: absolute;
+		right: r(20);
+		top: r(20);
+		color: #898989;
+		font-size: r(12);
+	}
+	.avatar {
+		width: r(40);
+		height: r(40);
+		border-radius: 50%;
+	}
+	.nickname {
+		font-size: r(16);
+		color: #2f2f2f;
+	}
+	.item-right {
+		flex: 1;
+		margin-left: r(20);
+	}
+	.star-and-time {
+		margin-top: r(6);
+		display: flex;
+	}
+	.send-time {
+		color: #898989;
+		font-size: r(12);
+		margin-left: r(10);
+	}
+	.comment-text {
+		margin-top: r(6);
+		font-size: r(14);
+		line-height: r(19);
+	}
+	.img-content {
+		overflow: hidden;
+		margin-top: r(8);
+	}
+	.img-item {
+		float: left;
+		width: r(80);
+		height: r(80);
+		background-size: cover;
+		background-position: center;
+		margin: 0 r(5) 0;
+	}
+	.like-info {
+		margin-top: r(4);
+		color: #576b95;
+		font-size: r(12);
+		line-height: r(18);
+		background-image: url('./img/favor.png');
+		background-repeat: no-repeat;
+		background-position: left 1px;
+		background-size: r(12) r(12);
+		padding-left: r(20);
+	}
+	.tag-info {
+		margin-top: r(4);
+		color: #898989;
+		font-size: r(12);
+		line-height: r(18);
+		background-image: url('./img/tag.png');
+		background-repeat: no-repeat;
+		background-position: left 1px;
+		background-size: r(12) r(12);
+		padding-left: r(20);
+	}
+}

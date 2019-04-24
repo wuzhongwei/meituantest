@@ -1,15 +1,21 @@
 import { CONTENT_LIST } from '../../constants/aperpolicy';
 
 let initital = {
-  items: []
+	items: [],
+	page: 0 // 分页
 }
 
 const contentList = (state = initital, action) => {
-	const { type, items  } = action
+	const { type, items, page } = action
 
 	switch(type) {
 		case CONTENT_LIST:
-			return { ...state, items };
+			if (page === 0) {
+				return { ...state, items, page };
+			} else {
+				return { items: state.items.concat(items), page };
+			}
+			
 		default:
 			return state;
 	}

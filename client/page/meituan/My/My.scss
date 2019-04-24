@@ -1,0 +1,72 @@
+.my {
+	.header {
+		width: 100%;
+		height: r(160);
+		background-image: url('./img/header.png');
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	.content {
+		min-height: r(507);
+		background-color: #eee;
+	}
+
+	.avatar {
+		width: r(72);
+		height: r(72);
+		margin: 0 auto;
+		display: block;
+		margin-top: r(25);
+		border: r(3) solid rgab(255, 255, 255, .4);
+		border-radius: 50%;
+	}
+	.nickname {
+		color: #333;
+		font-size: r(16);
+		text-align: center;
+		margin-top: r(15);
+	}
+	.items {
+		border-bottom: r(10) solid #ccc;
+		background-color: #fff;
+
+		li {
+			height: r(45);
+			font-size: r(14);
+			line-height: r(45);
+			position: relative;
+			margin-left: r(15);
+			border-bottom: 1px solid #e4e4e4;
+
+			&:last-child {
+				border: none;
+			}
+
+			&:after {
+				content: '>';
+				position: absolute;
+				right: r(20);
+				top: 0;
+			}
+
+			.iconfont {
+				padding-right: r(16);
+			}
+		}
+	}
+	.tel {
+		font-size: r(15);
+		color: #ffb000;
+		text-align: center;
+		height: r(46);
+		line-height: r(46);
+		background-color: #fff;
+	}
+	.time {
+		font-size: r(15);
+		text-align: center;
+		margin-top: r(13);
+		color: #999;
+	}
+}

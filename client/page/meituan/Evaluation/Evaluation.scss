@@ -1,0 +1,70 @@
+
+body {
+	background-color: #efefef;
+	color: #2f2f2f;
+	min-height: 100%;
+}
+.evaluation {
+	height: 100%;
+	.eva-content {
+		background-color: #fff;
+		overflow: hidden;
+		margin: r(10);
+		margin-top: r(74);
+	}
+	.star-area {
+		text-align: center;
+		margin-top: r(30);
+	}
+	.star-item {
+		width: r(32);
+		height: r(32);
+		background-size: cover;
+		display: inline-block;
+		margin-right: r(10);
+		background-image: url('./img/gray-star.png');
+		&.light {
+			background-image: url('./img/light-star.png');
+		}
+	}
+	.comment {
+		margin: r(20) r(10) 0 r(10);
+		border-bottom: solid 1px #e4e4e4;
+		padding-bottom: r(13);
+		position: relative;
+		.count {
+			font-size: r(11);
+			color: #aaa;
+			position: absolute;
+			bottom: r(24);
+			right: r(9);
+		}
+		.comment-input {
+			width: 100%;
+			height: r(100);
+			border: solid 1px #c6c6c6;
+			outline: none;
+			border-radius: 0;
+			-webkit-appearance: none;
+			font-size: r(16);
+			padding: r(10);
+			background-color: #fafafa;
+		}
+	}
+	.product-name {
+		padding: r(20) 0 r(20) r(20);
+		text-align: left;
+		font-size: r(16);
+	}
+	.submit {
+		width: 100%;
+		height: r(50);
+		line-height: r(50);
+		font-size: r(16);
+		color: #333;
+		background-color: #ffd161;
+		position: fixed;
+		bottom: 0;
+		text-align: center;
+	}
+}

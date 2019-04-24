@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
-// import { Route, Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import classnames from 'classnames';
 import Icon from '../../../components/Icon';
@@ -12,21 +12,21 @@ class BottomBar extends Component {
 	
 		return tabs.map((item, index) => {
 			return (
-				<div 
-					className={classnames({
-						'btn-item': true,
-						'active': item.key === activeKey
-					})}
+				<NavLink
+					activeClassName="active"
+					className="btn-item"
+					exact
 					key={index}
-					onClick={() => {
-						changeTab(item.key);
-					}}
+					to={'/'+item.key}
+					// onClick={() => {
+					// 	changeTab(item.key);
+					// }}
 				>
 					<div className="tab-icon">
 						<Icon type={item.key} />
 					</div>
 					<div className="btn-name">{item.name}</div>
-				</div>
+				</NavLink>
 			)
 		})
 	}

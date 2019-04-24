@@ -1,0 +1,68 @@
+.restanurant-content {
+  background-color: #f6f6f6;
+  overflow: hidden;
+  .restanurant-basic {
+      color: #2f2f2f;
+      background-color: #fff;
+      font-size: r(14);
+      margin-top: r(10);
+      padding-right: r(10);
+      padding-left: r(15);
+  }
+  .res-section {
+      padding-top: r(15);
+      padding-bottom: r(15);
+      border-bottom: 1px solid #f0f0f0;
+      display: flex;
+      &:before {
+          display: block;
+          content: '';
+          margin-right: r(20);
+          width: r(16);
+          height: r(16);
+          background-size: cover;
+      }
+  }
+  .restanurant-tel::before {
+      width: r(19);
+      background-image: url('./img/tel.png');
+  }
+  .restanurant-addr::before {
+      width: r(19);
+      background-image: url('./img/address.png');
+  }
+  .restanurant-send-time::before {
+      background-image: url('./img/time.png');
+  }
+  .restanurant-send-type::before {
+      background-image: url('./img/info.png');
+  }
+  .addr-wrap {
+      display: flex;
+  }
+  .addr-text {
+      flex: 1;
+      line-height: r(20);
+      margin-top: r(-3);
+  }
+  .meituan-send {
+      background-color: #ffd161;
+      color: #333;
+      font-size: r(10);
+      padding: r(2);
+      border-radius: r(4);
+      margin-right: r(4);
+  }
+  .restanurant-pay-type {
+    display: flex;
+    align-items: center;
+  }
+  .restanurant-pay-type::before {
+    display: none
+  }
+  .icon {
+      width: r(17);
+      height: r(17);
+      margin-right: r(20);
+  }
+}

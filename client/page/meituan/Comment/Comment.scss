@@ -1,0 +1,61 @@
+.comment-inner {
+  .comment-score {
+    display: flex;
+    padding: r(15) r(25);
+    border-top: r(10) solid #f6f6f6;
+    border-bottom: 1px solid #d5d5d5;
+    .taste-star-wrap,.package-star-wrap {
+      margin: 0 r(15);
+      color: #ffb000;
+    }
+    
+    .mail-score-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .other-score-content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-around;
+    }
+    .package-score, .taste-score {
+      display: flex;
+      justify-content: center;
+
+    }
+    .mail-score {
+      font-size: r(32);
+      color: #ffb000;
+      margin-bottom: r(5);
+    }
+    .mail-text {
+      font-size: r(12);
+      color: #656565;
+    }
+    .taste-text, .package-text {
+      font-size: r(12);
+      color: #554343;
+    }
+    .taste-score-text, .package-score-text {
+      font-size: r(15);
+      color: #ffb000;
+    }
+    .send-score-content {
+      display: flex;
+      flex-direction: column;
+      margin-top: r(3);
+    }
+    .send-score {
+      font-size: r(32);
+      color: #656565;
+      margin-bottom: r(5);
+    }
+    .send-text {
+      font-size: r(12);
+      color: #999;
+    }
+  }
+
+}

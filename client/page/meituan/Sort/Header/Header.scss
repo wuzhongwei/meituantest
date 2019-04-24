@@ -1,0 +1,141 @@
+.sort-header {
+	width: 100%;
+	background-color: #fff;
+	margin-top: r(64);
+
+
+	.header-top {
+		position: fixed;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		height: r(40);
+		border-bottom: solid 1px #e4e4e4;
+		background-color: #fff;
+		z-index: 3;
+	
+	}
+	.item {
+		font-size: r(13);
+		color: #2f2f2f;
+		border-right: 1px solid #ddd;
+		flex: 1;
+		text-align: center;
+		&:last-child {
+			border-right: none;
+		}
+
+		.iconfont {
+			transition: .5s all ease-in-out;
+		}
+	}
+
+	.current {
+		.iconfont {
+			transform: rotate(180deg);
+			transition: .5s all ease-in-out;
+			display: inline-block;
+		}
+	}
+
+	.panel {
+		position: fixed;
+		z-index: 10;
+		left: 0;
+		top: r(105);
+		bottom: 0;
+		right: 0;
+		height: 100%;
+		background-color: rgba(0,0,0,0.7);
+		display: none;
+		&.show {
+			display: block;
+		}
+		.panel-inner {
+			height: r(300);
+			overflow-x: hidden;
+			overflow-y: auto;
+			background-color: #fff;
+			> ul {
+				background-color: #fff;
+				display: none;
+				&.current {
+					display: block;
+				}
+			}
+		}
+		.item-title {
+			position: relative;
+			font-size: r(12);
+			height: r(30);
+			background-color: #efefef;
+			line-height: r(30);
+			color: #666;
+			padding-left: r(13);
+			&:before {
+				content: "";
+				position: absolute;
+				display: block;
+				margin: r(8) 0 0 r(-13);
+				width: r(2);
+				height: r(16);
+				background-color: #ffd161;
+			}
+			
+		} 
+		.item-content {
+			min-height: r(20);
+			overflow: hidden;
+		}
+		.cate-box {
+			float: left;
+			width: 33.3%;
+			font-size: r(12);
+			padding: r(10);
+			box-sizing: border-box;
+		}
+		.cate-box-inner {
+			border: 1px solid #e4e4e4;
+			text-align: center;
+			color: #666;
+			height: r(37);
+			line-height: r(37);
+			position: relative;
+			&.active {
+				background-color: #fffbf1;
+				color: #ffb000;
+				border-color: #ffb000;
+			}
+		}
+
+		.has-icon img {
+			display: inline-block;
+			width: r(18);
+			height: r(18);
+			position: absolute;
+			top: r(10);
+			left: r(4);
+		}
+		.type-item {
+			border: solid 1px #e9e9e9;
+			height: r(44);
+			font-size: r(13);
+			color: #666;
+			line-height: r(44);
+			padding-left: r(20);
+			&.active {
+				color:#ffb000;
+			}
+		}
+		.filter-item {
+			margin-bottom: r(10);
+			margin-top: r(5);
+			padding: 0 r(5);
+		}
+		.filter-title {
+			color: #999;
+			font-size: r(12);
+			padding-left: r(14);
+		}
+	}
+}

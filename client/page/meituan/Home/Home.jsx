@@ -1,9 +1,8 @@
 import React from "react";
-import BottomBar from '../BottomBar';
+
 import Header from '../Header';
 import Category from '../Category';
 import ContentList from '../ContentList';
-// import { renderRoutes, matchRoutes  } from 'react-router-config';
 
 function Home(props) {
 
@@ -12,7 +11,7 @@ function Home(props) {
 			<Header></Header>
 			<Category></Category>
 			<ContentList />
-			<BottomBar></BottomBar>
+
 		</div>
 	);
 

@@ -1,5 +1,5 @@
 const TABKEY = {
-  home: 'home',
+  home: '',
   order: 'order',
   my: 'my',
 }
