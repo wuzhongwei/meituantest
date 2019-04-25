@@ -67,9 +67,7 @@ class ListItem extends Component {
 	render() {
 		const {itemData} = this.props;
 		return (
-			<div className="listItem" onClick={() => {
-				window.location.href = '/details/menu';
-			}}>
+			<Link to='/details/menu' className="listItem">
 				<div className="pd20 scale-1px">
 					<img className="item-img" src={itemData.pic_url} alt=""/>
 					{this.renderBrand(itemData)}
@@ -100,7 +98,7 @@ class ListItem extends Component {
 						</div>
 					</div>
 				</div>
-			</div>
+			</Link>
 		);
 	}
 }
