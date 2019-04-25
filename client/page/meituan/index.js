@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, HashRouter} from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
 import store from '../redux/store';
 
@@ -10,12 +10,12 @@ import routes from './route';
 
 const Root = (
   <Provider store={store}>
-    <BrowserRouter>
+    <HashRouter>
       {
         renderRoutes(routes)
       }
       {/* <BottomBar /> */}
-    </BrowserRouter>
+    </HashRouter>
   </Provider>
 )
 

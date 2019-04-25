@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/meituantest/build/static/css/7.c1848095.chunk.css"
   },
   {
-    "revision": "bc0c4e785b2ef486c2cb",
+    "revision": "69030a0a49a926336cfa",
     "url": "/meituantest/build/static/css/main.dcc7251b.chunk.css"
   },
   {
-    "revision": "ec8d7670ef112c9539e4",
-    "url": "/meituantest/build/static/js/runtime~main.46448650.js"
+    "revision": "29bcfa54ec07db71e1c5",
+    "url": "/meituantest/build/static/js/runtime~main.1fc08f87.js"
   },
   {
-    "revision": "08e321c0b469e3d10fad",
-    "url": "/meituantest/build/static/js/2.ce4d9ae3.chunk.js"
+    "revision": "9fc6fb437e0a63cb6283",
+    "url": "/meituantest/build/static/js/2.de6eeec2.chunk.js"
   },
   {
     "revision": "c2a81a2250ded5e19a7681ff525eb33d",
@@ -48,23 +48,23 @@ self.__precacheManifest = [
     "url": "/meituantest/build/static/js/6.ed065350.chunk.js"
   },
   {
-    "revision": "bc0c4e785b2ef486c2cb",
-    "url": "/meituantest/build/static/js/main.33bbacac.chunk.js"
+    "revision": "69030a0a49a926336cfa",
+    "url": "/meituantest/build/static/js/main.69c9e6ff.chunk.js"
   },
   {
     "revision": "d571c5ef5868268e2824",
     "url": "/meituantest/build/static/js/7.9168d347.chunk.js"
   },
   {
-    "revision": "75463ed36c5578c4d3a5",
-    "url": "/meituantest/build/static/js/8.de7d547f.chunk.js"
+    "revision": "ad39fac02b14351b3a86",
+    "url": "/meituantest/build/static/js/8.d4e8916b.chunk.js"
   },
   {
     "revision": "e4fa555dec02b5fa181e",
     "url": "/meituantest/build/static/css/9.c018ece1.chunk.css"
   },
   {
-    "revision": "75463ed36c5578c4d3a5",
+    "revision": "ad39fac02b14351b3a86",
     "url": "/meituantest/build/static/css/8.6756fac7.chunk.css"
   },
   {
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/meituantest/build/static/css/10.a1bfaf38.chunk.css"
   },
   {
-    "revision": "7eac2f7cb654e872ca2fa163cca97769",
+    "revision": "183dc56e25e599b4e5e4b4c8e57c053f",
     "url": "/meituantest/build/index.html"
   }
 ];
